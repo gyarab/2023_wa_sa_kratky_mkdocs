@@ -1,7 +1,7 @@
 site_name: Krátký
 
 nav: 
-  - Maturita PG: 'maturita-pg.md'
+  - Maturita PG: 'index.md'
   - WA: 'wa-hodina.md'
 
 extra_css:
