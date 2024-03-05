@@ -1,0 +1,10 @@
+site_name: Krátký
+
+nav: 
+  - Maturita PG: 'maturita-pg.md'
+  - WA: 'wa-hodina.md'
+
+extra_css:
+  - style.css
+
+theme: ivory
