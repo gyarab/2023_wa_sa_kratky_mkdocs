@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(59, 59, 59);
+    color:darkgray;
+}
+h2 {
+    color: white;
+    font-style: italic;
+}
+
+h3 {
+    color: antiquewhite;
+    font-style: italic;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <title>WA &mdash; Krátký</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.1/css/v4-shims.css">
+    <link rel="stylesheet" href="../css/theme.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script> 
+</head>
+
+<body ontouchstart="">
+    <div id="container">
+        <aside>
+            <div class="home">
+                <div class="title">
+                    <button class="hamburger"></button>
+                    <a href=".." class="site-name"> Krátký</a>
+                </div>
+                <div class="search">
+                    <div role="search">
+    <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+        <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+    </form>
+</div>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul class="root">
+                    <li class="toctree-l1"><a class="nav-item" href="../maturita-pg/">Maturita PG</a></li>
+                    <li class="toctree-l1 current"><a class="nav-item current" href="./">WA</a><a class="nav-item current" href="./">WA</a><a class="nav-item current" href="./">WA</a>
+<ul class="subnav">
+<li class="toctree-l2"><a class="nav-item toc" href="#usporadani">Uspořádání</a></li>
+<li class="toctree-l2"><a class="nav-item toc" href="#breakpointy">Breakpointy</a></li>
+</ul></li>
+                </ul>
+            </nav>
+            <div class="repo">
+    <div class="previous"><a href="../maturita-pg/">&laquo; Previous</a></div>
+</div>
+        </aside>
+        <div id="spacer"><button class="arrow"></button></div>
+        <main>
+            <div class="home-top">
+                <button class="hamburger"></button>
+                <a href=".." class="site-name"> Krátký</a>
+            </div>
+            <div id="main">
+                <nav class="breadcrumbs">
+<ul>
+    
+</ul>
+</nav>
+                <div id="content"><p><img alt="Hodina" src="../img/wa-hodina.jpg" /></p>
+<h2 id="valudace">Valudace</h2>
+<ul>
+<li>Klient<ul>
+<li>browser based</li>
+</ul>
+</li>
+<li>Server<ul>
+<li>Server side</li>
+</ul>
+</li>
+</ul>
+<h2 id="wireframe">Wireframe</h2>
+<ul>
+<li>Vždy webové stránky píšeme nejprve pro mobil<ul>
+<li>je více uživatelů co používají mobil než počítač</li>
+</ul>
+</li>
+<li>I will know it, if i see it.<ul>
+<li>Zákazník nikdy neví co chce</li>
+<li>Uvědomí si to, až to uvidí</li>
+<li>Když se tak programátor dozí co chce je pozdě a stojí ho to čas</li>
+</ul>
+</li>
+<li>Nejdříve zjistíme co zákazník chce -&gt; pak uděláme nějaký wireframe, jak by to mohlo vypdat -&gt; Až pak uděláme, testujeme a nasadíme na server</li>
+</ul>
+<h3 id="usporadani">Uspořádání</h3>
+<ul>
+<li>Nahoře vždy menu</li>
+<li>Pod tím Hlavní nadpis (h1) - použít pouze jednou</li>
+<li>Kapitoly</li>
+<li>Na spod kontakty a podobné věci</li>
+</ul>
+<h2 id="bootstrap-5">Bootstrap 5</h2>
+<ul>
+<li>Musíme přidat jak JS tak CSS knihovnu</li>
+<li>Slouží k responzivním stránkám (např přizpůsobení šířce = breakpointy)</li>
+<li>CSS layaut<ul>
+<li>Grid <ul>
+<li>Má sloupc a řádky<ul>
+<li>Row</li>
+<li>Col</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Flex s</li>
+</ul>
+</li>
+<li>12 linií<ul>
+<li>Slouží k zarovnávání, aby stránka vypadala všude dobře</li>
+<li>12 kvůli tomu, že je dělitelné jak 2 tak 3 </li>
+</ul>
+</li>
+</ul>
+<h3 id="breakpointy">Breakpointy</h3>
+<ul>
+<li>Používáme je na designování w. a. na různých zařízení</li>
+<li>Mobile first <ul>
+<li>Pro mobil je optimálí sm a níž</li>
+<li>Pro pc, tablety apod md a výš</li>
+</ul>
+</li>
+</ul></div>
+                <footer>
+    <div class="footer-buttons">
+        <div class="previous"><a href="../maturita-pg/" title="Maturita PG"><span>Previous</span></a></div>
+    </div>
+    <div class="footer-note">
+        <p>
+            Built with <a href="http://www.mkdocs.org">MkDocs</a> using
+            <a href="https://github.com/daizutabi/mkdocs-ivory">Ivory theme</a>.
+        </p>
+    </div>
+</footer>
+            </div>
+        </main>
+    </div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js"></script>
+    <script src="../search/main.js"></script>
+</body>
+
+</html>
